@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Aviem Zur</title>
+    <meta name="description" content="Aviem Zur's personal homepage">
+
+    <link rel="stylesheet" href="/style.css">
+    <link rel="canonical" href="http://aviemzur.com/blog/">
+    <link rel="alternate" type="application/rss+xml" title="Aviem Zur" href="http://aviemzur.com/feed.xml" />
+    <link rel="shortcut icon" href="/images/favicon.ico" />
+  </head>
+
+  <body>
+    <main>
+      <header class="site-header">
+  <div class="container">
+    <h1><a href="/">aviem<span>zur</span></a></h1>
+
+    <button type="button" class="sliding-panel-button">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="navbar sliding-panel-content">
+      <ul>
+        
+          <li><a href="/blog" title="Blog">Blog</a></li>
+        
+        <!--
+        <li><a href="/archive/master.zip" title="Download">Download</a></li>
+        -->
+        <li><a href="/feed.xml" target="_blank"><i class="icon icon-feed"></i></a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<div class="sliding-panel-fade-screen"></div>
+
+
+      <div class="container">
+        <section class="post-list">
+  
+    <article class="post">
+  <header class="post-header">
+    <h1 class="post-title">
+      <a class="post-link" href="/blog/2016/test/">Test title</a>
+    </h1>
+    <div class="post-meta">
+      <time>Aug 16, 2016</time>
+    </div>
+  </header>
+
+  <p><a href="/blog/2016/test/" title="Permalink to: Test title" class="read-more">First test paragraph.
+
+Second test paragraph.
+
+Third test paragraph.
+
+Fourth test paragraph.
+
+Fifth test paragraph.
+</a></p>
+</article>
+
+  
+
+  
+
+</section>
+
+      </div>
+
+      ﻿<footer class="site-footer">
+  <div class="container">
+    <ul class="social">
+  <li><a href="https://www.linkedin.com/in/aviemzur" target="_blank"><i class="icon icon-linkedin"></i></a></li>
+  <li><a href="https://github.com/aviemzur" target="_blank"><i class="icon icon-github"></i></a></li>
+  <li><a href="https://twitter.com/aviemzur" target="_blank"><i class="icon icon-twitter"></i></a></li>
+</ul>
+
+    <p class="txt-medium-gray">
+      <small>
+        Copyright &copy; Aviem Zur and aviemzur.com, 2017.
+        All rights reserved.
+      </small>
+    </p>
+  </div>
+</footer>
+
+
+      <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+      <script>
+      $(document).ready(function() {
+        $('.sliding-panel-button,.sliding-panel-fade-screen,.sliding-panel-close').on('click touchstart',function (e) {
+          $('.sliding-panel-content,.sliding-panel-fade-screen').toggleClass('is-visible');
+          e.preventDefault();
+        });
+      });
+      </script>
+    </main>
+  </body>
+</html>

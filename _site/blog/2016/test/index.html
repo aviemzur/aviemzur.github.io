@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Test title</title>
+    <meta name="description" content="First test paragraph.">
+
+    <link rel="stylesheet" href="/style.css">
+    <link rel="canonical" href="http://aviemzur.com/blog/2016/test/">
+    <link rel="alternate" type="application/rss+xml" title="Aviem Zur" href="http://aviemzur.com/feed.xml" />
+    <link rel="shortcut icon" href="/images/favicon.ico" />
+  </head>
+
+  <body>
+    <main>
+      <header class="site-header">
+  <div class="container">
+    <h1><a href="/">aviem<span>zur</span></a></h1>
+
+    <button type="button" class="sliding-panel-button">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="navbar sliding-panel-content">
+      <ul>
+        
+          <li><a href="/blog" title="Blog">Blog</a></li>
+        
+        <!--
+        <li><a href="/archive/master.zip" title="Download">Download</a></li>
+        -->
+        <li><a href="/feed.xml" target="_blank"><i class="icon icon-feed"></i></a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<div class="sliding-panel-fade-screen"></div>
+
+
+      <div class="container">
+        <article role="article" class="post">
+
+  <div class="card">
+    <header class="post-header">
+      <h1 class="post-title">Test title</h1>
+      <p class="post-meta">Aug 16, 2016</p>
+    </header>
+
+    <div class="post-content">
+      <p>First test paragraph.</p>
+
+<p>Second test paragraph.</p>
+
+<p>Third test paragraph.</p>
+
+<p>Fourth test paragraph.</p>
+
+<p>Fifth test paragraph.</p>
+
+    </div>
+
+    
+<hr>
+
+<aside id="comments" class="disqus">
+  <div class="container">
+    <h3><i class="icon icon-comments-o"></i> Comments</h3>
+    <div id="disqus_thread"></div>
+    <script>
+      var disqus_config = function() {
+        this.page.url = 'http://aviemzur.com';
+        this.page.identifier = '/blog/2016/test';
+      };
+      (function() {
+        var d = document,
+        s = d.createElement('script');
+        s.src = '//.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+      })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+  </div>
+</aside>
+
+
+  </div>
+
+</article>
+
+      </div>
+
+      ﻿<footer class="site-footer">
+  <div class="container">
+    <ul class="social">
+  <li><a href="https://www.linkedin.com/in/aviemzur" target="_blank"><i class="icon icon-linkedin"></i></a></li>
+  <li><a href="https://github.com/aviemzur" target="_blank"><i class="icon icon-github"></i></a></li>
+  <li><a href="https://twitter.com/aviemzur" target="_blank"><i class="icon icon-twitter"></i></a></li>
+</ul>
+
+    <p class="txt-medium-gray">
+      <small>
+        Copyright &copy; Aviem Zur and aviemzur.com, 2017.
+        All rights reserved.
+      </small>
+    </p>
+  </div>
+</footer>
+
+
+      <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+      <script>
+      $(document).ready(function() {
+        $('.sliding-panel-button,.sliding-panel-fade-screen,.sliding-panel-close').on('click touchstart',function (e) {
+          $('.sliding-panel-content,.sliding-panel-fade-screen').toggleClass('is-visible');
+          e.preventDefault();
+        });
+      });
+      </script>
+    </main>
+  </body>
+</html>
