@@ -9,7 +9,7 @@ favicon: /images/favicon.ico
 author:
   name      : Aviem Zur
   job       : Software Engineer at PayPal; Committer, Apache Beam
-  bio       : Working as a Software Engineer at PayPal and a committer in the <a href="https://beam.apache.org">Apache Beam</a> team.
+  bio       : Software Engineer at <a href="https://www.paypal.com/">PayPal</a>, working on big data frameworks and platforms and a committer in the <a href="https://beam.apache.org">Apache Beam</a> team.
   thumb     : /images/aviemzur.jpeg
   github    : https://github.com/aviemzur
   twitter   : https://twitter.com/aviemzur
