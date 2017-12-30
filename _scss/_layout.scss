@@ -224,6 +224,15 @@ body.home {
     font-weight: $font-weight-light;
   }
 
+  h4 {
+    font-size: rem(16);
+    margin: .8em 0 1.2em;
+
+    @include media($tablet-up) {
+      font-size: rem(16);
+    }
+  }
+
   em {
     color: $primary-color;
   }
